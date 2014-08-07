@@ -94,12 +94,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Vn-qt-0Ax">
-                                <rect key="frame" x="38" y="133" width="244" height="209"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grumpycat" translatesAutoresizingMaskIntoConstraints="NO" id="1Vn-qt-0Ax">
+                                <rect key="frame" x="10" y="109" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="o0w-0O-evz" appends="YES" id="VAX-SD-ghH"/>
+                                    <outletCollection property="gestureRecognizers" destination="4Jr-KT-T17" appends="YES" id="Npn-j9-wjb"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRG-ow-Wyg">
@@ -113,7 +113,7 @@
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNo-cV-leL">
-                                <rect key="frame" x="114" y="363" width="93" height="21"/>
+                                <rect key="frame" x="114" y="448" width="93" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -128,15 +128,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QeK-nE-hnf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="UU9-De-2L5" userLabel="Exit" sceneMemberID="exit"/>
-                <tapGestureRecognizer id="o0w-0O-evz">
+                <tapGestureRecognizer id="4Jr-KT-T17">
                     <connections>
-                        <action selector="imageTapped:" destination="M0f-am-ozP" id="5Kn-9y-h9g"/>
+                        <action selector="imageTapped:" destination="M0f-am-ozP" id="s3c-Ro-Mwj"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="347" y="33"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="grumpycat" width="600" height="600"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
