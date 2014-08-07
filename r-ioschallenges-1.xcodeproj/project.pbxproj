@@ -13,8 +13,7 @@
 		B0FD901A19938838004CFB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0FD901819938838004CFB23 /* InfoPlist.strings */; };
 		B0FD901C19938838004CFB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD901B19938838004CFB23 /* main.m */; };
 		B0FD902019938838004CFB23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD901F19938838004CFB23 /* AppDelegate.m */; };
-		B0FD902319938838004CFB23 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FD902119938838004CFB23 /* Main_iPhone.storyboard */; };
-		B0FD902619938838004CFB23 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FD902419938838004CFB23 /* Main_iPad.storyboard */; };
+		B0FD902319938838004CFB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FD902119938838004CFB23 /* Main.storyboard */; };
 		B0FD902919938838004CFB23 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD902819938838004CFB23 /* FormViewController.m */; };
 		B0FD902B19938838004CFB23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD902A19938838004CFB23 /* Images.xcassets */; };
 		B0FD903219938838004CFB23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FD903119938838004CFB23 /* XCTest.framework */; };
@@ -45,8 +44,7 @@
 		B0FD901D19938838004CFB23 /* r-ioschallenges-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "r-ioschallenges-1-Prefix.pch"; sourceTree = "<group>"; };
 		B0FD901E19938838004CFB23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0FD901F19938838004CFB23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0FD902219938838004CFB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		B0FD902519938838004CFB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B0FD902219938838004CFB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0FD902719938838004CFB23 /* FormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
 		B0FD902819938838004CFB23 /* FormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
 		B0FD902A19938838004CFB23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -116,8 +114,7 @@
 			children = (
 				B0FD901E19938838004CFB23 /* AppDelegate.h */,
 				B0FD901F19938838004CFB23 /* AppDelegate.m */,
-				B0FD902119938838004CFB23 /* Main_iPhone.storyboard */,
-				B0FD902419938838004CFB23 /* Main_iPad.storyboard */,
+				B0FD902119938838004CFB23 /* Main.storyboard */,
 				B0FD902719938838004CFB23 /* FormViewController.h */,
 				B0FD902819938838004CFB23 /* FormViewController.m */,
 				B0FD902A19938838004CFB23 /* Images.xcassets */,
@@ -231,9 +228,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FD902619938838004CFB23 /* Main_iPad.storyboard in Resources */,
 				B0FD902B19938838004CFB23 /* Images.xcassets in Resources */,
-				B0FD902319938838004CFB23 /* Main_iPhone.storyboard in Resources */,
+				B0FD902319938838004CFB23 /* Main.storyboard in Resources */,
 				B0FD901A19938838004CFB23 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,20 +282,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B0FD902119938838004CFB23 /* Main_iPhone.storyboard */ = {
+		B0FD902119938838004CFB23 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B0FD902219938838004CFB23 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B0FD902419938838004CFB23 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0FD902519938838004CFB23 /* Base */,
-			);
-			name = Main_iPad.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		B0FD903A19938838004CFB23 /* InfoPlist.strings */ = {
