@@ -9,22 +9,14 @@
 #import "ImageViewController.h"
 
 @interface ImageViewController ()
-@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *imageTapGestureRecognizer;
 @property (weak, nonatomic) IBOutlet UILabel *helloWorldLabel;
 
 @end
 
 @implementation ImageViewController
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)imageTapped:(id)sender {
+    self.helloWorldLabel.hidden = NO;
 }
-*/
 
 @end
