@@ -21,6 +21,7 @@
 		B0FD903419938838004CFB23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FD901319938838004CFB23 /* UIKit.framework */; };
 		B0FD903C19938838004CFB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0FD903A19938838004CFB23 /* InfoPlist.strings */; };
 		B0FD903E19938838004CFB23 /* r_ioschallenges_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD903D19938838004CFB23 /* r_ioschallenges_1Tests.m */; };
+		B0FD904D19938BC1004CFB23 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD904C19938BC1004CFB23 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B0FD903919938838004CFB23 /* r-ioschallenges-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "r-ioschallenges-1Tests-Info.plist"; sourceTree = "<group>"; };
 		B0FD903B19938838004CFB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0FD903D19938838004CFB23 /* r_ioschallenges_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = r_ioschallenges_1Tests.m; sourceTree = "<group>"; };
+		B0FD904B19938BC1004CFB23 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		B0FD904C19938BC1004CFB23 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,8 @@
 		B0FD901519938838004CFB23 /* r-ioschallenges-1 */ = {
 			isa = PBXGroup;
 			children = (
-				B0FD901E19938838004CFB23 /* AppDelegate.h */,
-				B0FD901F19938838004CFB23 /* AppDelegate.m */,
 				B0FD902119938838004CFB23 /* Main.storyboard */,
-				B0FD902719938838004CFB23 /* FormViewController.h */,
-				B0FD902819938838004CFB23 /* FormViewController.m */,
+				B0FD904E19938BC9004CFB23 /* View Controllers */,
 				B0FD902A19938838004CFB23 /* Images.xcassets */,
 				B0FD901619938838004CFB23 /* Supporting Files */,
 			);
@@ -126,6 +126,8 @@
 		B0FD901619938838004CFB23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B0FD901E19938838004CFB23 /* AppDelegate.h */,
+				B0FD901F19938838004CFB23 /* AppDelegate.m */,
 				B0FD901719938838004CFB23 /* r-ioschallenges-1-Info.plist */,
 				B0FD901819938838004CFB23 /* InfoPlist.strings */,
 				B0FD901B19938838004CFB23 /* main.m */,
@@ -150,6 +152,17 @@
 				B0FD903A19938838004CFB23 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FD904E19938BC9004CFB23 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD902719938838004CFB23 /* FormViewController.h */,
+				B0FD902819938838004CFB23 /* FormViewController.m */,
+				B0FD904B19938BC1004CFB23 /* ImageViewController.h */,
+				B0FD904C19938BC1004CFB23 /* ImageViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			files = (
 				B0FD902919938838004CFB23 /* FormViewController.m in Sources */,
 				B0FD902019938838004CFB23 /* AppDelegate.m in Sources */,
+				B0FD904D19938BC1004CFB23 /* ImageViewController.m in Sources */,
 				B0FD901C19938838004CFB23 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
