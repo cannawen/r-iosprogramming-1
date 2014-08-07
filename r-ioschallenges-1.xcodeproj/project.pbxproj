@@ -22,6 +22,7 @@
 		B0FD903C19938838004CFB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0FD903A19938838004CFB23 /* InfoPlist.strings */; };
 		B0FD903E19938838004CFB23 /* r_ioschallenges_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD903D19938838004CFB23 /* r_ioschallenges_1Tests.m */; };
 		B0FD904D19938BC1004CFB23 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD904C19938BC1004CFB23 /* ImageViewController.m */; };
+		B0FD90511993963B004CFB23 /* InsetTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD90501993963B004CFB23 /* InsetTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		B0FD903D19938838004CFB23 /* r_ioschallenges_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = r_ioschallenges_1Tests.m; sourceTree = "<group>"; };
 		B0FD904B19938BC1004CFB23 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		B0FD904C19938BC1004CFB23 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		B0FD904F1993963B004CFB23 /* InsetTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetTextField.h; sourceTree = "<group>"; };
+		B0FD90501993963B004CFB23 /* InsetTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 			children = (
 				B0FD902119938838004CFB23 /* Main.storyboard */,
 				B0FD904E19938BC9004CFB23 /* View Controllers */,
+				B0FD905219939640004CFB23 /* Custom subclasses */,
 				B0FD902A19938838004CFB23 /* Images.xcassets */,
 				B0FD901619938838004CFB23 /* Supporting Files */,
 			);
@@ -163,6 +167,15 @@
 				B0FD904C19938BC1004CFB23 /* ImageViewController.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B0FD905219939640004CFB23 /* Custom subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD904F1993963B004CFB23 /* InsetTextField.h */,
+				B0FD90501993963B004CFB23 /* InsetTextField.m */,
+			);
+			name = "Custom subclasses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FD90511993963B004CFB23 /* InsetTextField.m in Sources */,
 				B0FD902919938838004CFB23 /* FormViewController.m in Sources */,
 				B0FD902019938838004CFB23 /* AppDelegate.m in Sources */,
 				B0FD904D19938BC1004CFB23 /* ImageViewController.m in Sources */,
